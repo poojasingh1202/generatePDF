@@ -55,7 +55,7 @@ app.post("/generate-certificate", (req, res) => {
     doc.end();
 
     res.json({
-        message: "Certificated Generated",
+        message: "Certificated Generated successfully",
         file: `/certificates/${filename}`
     })
 })
