@@ -1,0 +1,18 @@
+{
+  "name": "generatepdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pooja Singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "git": "^0.1.5",
+    "pdfkit": "^0.17.0"
+  }
+}
